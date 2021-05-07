@@ -23,8 +23,5 @@ public class Principal {
 			}
 			System.out.println("la contraseña Nº: "+(i+1)+" es : "+ tablaseguridad[i].getContraseña()+" "+" " + seguridad);
 		}
-		
-		
-		
 	}
 }
