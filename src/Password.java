@@ -41,8 +41,6 @@ public class Password {
 	
 	public String generarPassword() {
 		
-		
-		
 		String contraseña = "";
 		Random aleatorio = new Random();
 		
@@ -95,9 +93,7 @@ public class Password {
 	      if(contMinus>1 && contMayus>2 && contNumeros>5){
 	         cond=true;
 	      }
-	   
-	   return cond;
-		
+	   return cond;	
 	}
 
 	
