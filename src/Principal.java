@@ -10,9 +10,17 @@ public class Principal {
 		
 		final int longitud = 25;
 		 String seguridad;
+		 
+		 /**
+		  * CREACION DE ARRAYS
+		  */
 		
 		Password tablaseguridad[] = new Password [5];
 		Password tablaseguridad2[] = new Password[5];
+		
+		/**
+		 * BUCLES PARA MOSTRAR
+		 */
 		
 		for(int i=0;i<tablaseguridad.length;i++) {
 			tablaseguridad[i] = new Password(longitud);

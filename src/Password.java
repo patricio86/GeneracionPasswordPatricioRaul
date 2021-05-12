@@ -68,7 +68,7 @@ public class Password {
 	}
 	
 	/**
-	 * METODO QUE COMPRUEBA LA SEGURIDAD DE LA CONTRASEÑA
+	 * 
 	 * @param contraseña
 	 * @return
 	 */
