@@ -1,6 +1,10 @@
 
 public class Principal {
 	
+	/**
+	 * CLASE PRINCIPAL
+	 * @param args
+	 */
 	
 	public static void main(String[]args) {
 		

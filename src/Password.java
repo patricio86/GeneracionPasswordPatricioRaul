@@ -1,7 +1,17 @@
 import java.util.Random;
 
+/**
+ * 
+ * @author Patricio
+ * CLASE PARA CONTRUIR LA CONTRASEÑA
+ */
+
 public class Password {
 
+	/**
+	 * CONSTRUCTOR CON LOS ELEMENTOS PARA CONTRUIR LA CONTRASEÑA
+	 */
+	
 	private Integer longitud;
 	private String contraseña;
 	
@@ -39,6 +49,11 @@ public class Password {
 		return contraseña;
 	}
 	
+	/**
+	 * FUNCION QUE DEVUELVE LA CONTRASEÑA GENERADA
+	 * @return
+	 */
+	
 	public String generarPassword() {
 		
 		String contraseña = "";
@@ -51,6 +66,12 @@ public class Password {
 		
 		
 	}
+	
+	/**
+	 * METODO QUE COMPRUEBA LA SEGURIDAD DE LA CONTRASEÑA
+	 * @param contraseña
+	 * @return
+	 */
 	
 	public boolean passwordFuente(String contraseña) {
 		 char comparar;
